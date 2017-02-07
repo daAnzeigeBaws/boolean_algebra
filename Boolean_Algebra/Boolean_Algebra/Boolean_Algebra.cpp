@@ -5,6 +5,8 @@
 #include "iostream"
 #include "stdlib.h"
 #include "string"
+#include "Parse_bool.h"
+
 
 
 int main()
@@ -31,7 +33,10 @@ int main()
 	else
 	{
 		//Aufruf der Parse-Klasse
-		printf("Else-Pfad aufgerufen\n");
+		Parse_bool* testobjekt;
+		testobjekt = new Parse_bool();
+		testobjekt->testfunction(input);
+		
 		system("pause");
 	}
 	
