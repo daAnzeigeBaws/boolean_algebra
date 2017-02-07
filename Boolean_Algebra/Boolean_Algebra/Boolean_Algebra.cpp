@@ -3,12 +3,13 @@
 
 #include "stdafx.h"
 #include "stdio.h"
+#include "stdlib.h"
 
 
 int main()
 {
-	printf("Hello World !");
-	System("Pause");
+	printf("Hello World !\n");
+	system("Pause");
     return 0;
 }
 
