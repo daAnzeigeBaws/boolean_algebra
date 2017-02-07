@@ -8,7 +8,7 @@
 
 int main()
 {
-	printf("Hello World !\n");
+	printf("Herzlich willkommen zur Prüfung für Boolsche Algebra !\n");
 	system("Pause");
     return 0;
 }
