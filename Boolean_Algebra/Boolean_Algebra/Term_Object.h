@@ -3,6 +3,6 @@ class Term_Object
 {
 public:
 	Term_Object();
-	~Term_Object();
+	bool evaluate(std::string* vars);
 };
 

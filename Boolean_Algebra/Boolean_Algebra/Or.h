@@ -3,8 +3,14 @@
 class Or :
 	public Term_Object
 {
-public:
-	Or();
-	~Or();
-};
+Term_Object left_term;
+Term_Object right_term;
 
+public:
+	Or(Term_Object term1, Term_Object term2);
+
+	bool evaluate(std::string* vars)
+	{
+	    return left_term.evaluate(vars) && right_term.evaluate(vars);
+	}
+};

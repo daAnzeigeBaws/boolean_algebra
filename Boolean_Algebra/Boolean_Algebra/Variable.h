@@ -4,7 +4,6 @@ class Variable :
 	public Term_Object
 {
 public:
-	Variable();
-	~Variable();
+	Variable(std::string);
 };
 
