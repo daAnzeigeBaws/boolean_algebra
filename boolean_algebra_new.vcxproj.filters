@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\src\And.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\src\Not.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\src\Or.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\src\Parse_bool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\src\Term_Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\src\Variable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\include\And.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\include\Not.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\include\Or.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\include\Parse_bool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\include\Term_Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\include\Variable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\include\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3C53D577-4C4D-31D3-B911-335C213482ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CC039E94-BFFD-3BB4-8D3C-E173B93A442D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -4,16 +4,13 @@
 
 #include "Variable.h"
 
+//Konstruktor mit einem String als Parameter, der den Namen der Varible repräsentiert
 Variable::Variable(std::string name)
 {
     var_name = name;
 }
 
+//Wird aus irgend einem Grund nicht ausgeführt -> unbekanntes Problem
 bool evaluate(std::map<std::string, char>* vars) {
-    std::cout << (vars -> at("a")) << " look at me";
-    if (vars -> at("a") == '0')
-    {
-        return false;
-    }
     return true;
 }

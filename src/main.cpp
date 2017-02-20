@@ -4,9 +4,7 @@
 #include "main.h"
 
 
-
-int main()
-{
+int main() {
     std::string input;
 
     printf("**********************************************************************************************\n"); //Text & Ausgabe des Menüs
@@ -21,15 +19,21 @@ int main()
     printf("Bitte geben Sie einen Ausdruck ein: ");
     std::cin >> input;
     //Eingabe des Audruckes und Schreiben in Variable
-    if (input != "exit")
-    {
-        //Aufruf der Parse-Klasse
-        Parse_bool* testobjekt;
-        testobjekt = new Parse_bool();
-        Term_Object* object = testobjekt -> parse(input);
+    if (input != "exit") {
+        //Aufruf der Parse-Klasse, um den gegebenen Ausdruck zu parsen
+        Parse_bool *parser;
+        parser = new Parse_bool();
 
-        testobjekt -> evaluate(object);
+        Term_Object *term_object;
+        try {
+            term_object = parser->parse(input);
+
+            //Logische Auswertung des geparsten bool'schen Ausdrucks
+            parser->evaluate(term_object);
+        }
+        catch (std::out_of_range){
+            std::cout << "Der eingegebene Ausdruck ist syntaktisch inkorrekt!" << std::endl;
+        }
     }
-
     return 0;
 }

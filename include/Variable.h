@@ -14,6 +14,8 @@ public:
     std::string var_name;
 
     Variable(std::string name);
+
+    //Überschreibt die geerbte Methode; musste aus unerfindlichen Gründen hier implementiert werden
     virtual bool evaluate(std::map<std::string, char>* vars){
         return vars -> at(var_name) != '0';
     };
