@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio 14
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{7D8E10A2-929C-38EE-BC97-1125A7951D4D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{344E7D2B-BA36-39C1-90BF-CC2C4469B01B} = {344E7D2B-BA36-39C1-90BF-CC2C4469B01B}

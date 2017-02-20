@@ -14,84 +14,88 @@
 # EXTERNAL cache entries
 ########################
 
+//Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
+// CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
+CMAKE_BUILD_TYPE:STRING=
+
 //Semicolon separated list of supported configuration types, only
 // supports Debug, Release, MinSizeRel, and RelWithDebInfo, anything
 // else will be ignored.
 CMAKE_CONFIGURATION_TYPES:STRING=Debug;Release;MinSizeRel;RelWithDebInfo
 
 //Flags used by the compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=/DWIN32 /D_WINDOWS /W3 /GR /EHsc
+CMAKE_CXX_FLAGS:STRING=
 
 //Flags used by the compiler during debug builds.
-CMAKE_CXX_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1
+CMAKE_CXX_FLAGS_DEBUG:STRING=
 
 //Flags used by the compiler during release builds for minimum
 // size.
-CMAKE_CXX_FLAGS_MINSIZEREL:STRING=/MD /O1 /Ob1 /DNDEBUG
+CMAKE_CXX_FLAGS_MINSIZEREL:STRING=
 
 //Flags used by the compiler during release builds.
-CMAKE_CXX_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /DNDEBUG
+CMAKE_CXX_FLAGS_RELEASE:STRING=
 
 //Flags used by the compiler during release builds with debug info.
-CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /DNDEBUG
+CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=
 
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
 
 //Flags used by the compiler during all build types.
-CMAKE_C_FLAGS:STRING=/DWIN32 /D_WINDOWS /W3
+CMAKE_C_FLAGS:STRING=
 
 //Flags used by the compiler during debug builds.
-CMAKE_C_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1
+CMAKE_C_FLAGS_DEBUG:STRING=
 
 //Flags used by the compiler during release builds for minimum
 // size.
-CMAKE_C_FLAGS_MINSIZEREL:STRING=/MD /O1 /Ob1 /DNDEBUG
+CMAKE_C_FLAGS_MINSIZEREL:STRING=
 
 //Flags used by the compiler during release builds.
-CMAKE_C_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /DNDEBUG
+CMAKE_C_FLAGS_RELEASE:STRING=
 
 //Flags used by the compiler during release builds with debug info.
-CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /DNDEBUG
+CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=
 
 //Libraries linked by default with all C applications.
 CMAKE_C_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
 
 //Flags used by the linker.
-CMAKE_EXE_LINKER_FLAGS:STRING=/machine:X86
+CMAKE_EXE_LINKER_FLAGS:STRING=
 
 //Flags used by the linker during debug builds.
-CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL
+CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
 
 //Flags used by the linker during release minsize builds.
-CMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=/INCREMENTAL:NO
+CMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=
 
 //Flags used by the linker during release builds.
-CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
+CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 
 //Flags used by the linker during Release with Debug Info builds.
-CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
+CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/boolean_algebra_new
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.10.24930/bin/HostX86/x86/link.exe
+CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/link.exe
 
 //Flags used by the linker during the creation of modules.
-CMAKE_MODULE_LINKER_FLAGS:STRING=/machine:X86
+CMAKE_MODULE_LINKER_FLAGS:STRING=
 
 //Flags used by the linker during debug builds.
-CMAKE_MODULE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL
+CMAKE_MODULE_LINKER_FLAGS_DEBUG:STRING=
 
 //Flags used by the linker during release minsize builds.
-CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL:STRING=/INCREMENTAL:NO
+CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL:STRING=
 
 //Flags used by the linker during release builds.
-CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
+CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 
 //Flags used by the linker during Release with Debug Info builds.
-CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
+CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=boolean_algebra_new
@@ -103,19 +107,19 @@ CMAKE_RC_COMPILER:FILEPATH=rc
 CMAKE_RC_FLAGS:STRING=/DWIN32
 
 //Flags used by the linker during the creation of dll's.
-CMAKE_SHARED_LINKER_FLAGS:STRING=/machine:X86
+CMAKE_SHARED_LINKER_FLAGS:STRING=
 
 //Flags used by the linker during debug builds.
-CMAKE_SHARED_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL
+CMAKE_SHARED_LINKER_FLAGS_DEBUG:STRING=
 
 //Flags used by the linker during release minsize builds.
-CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL:STRING=/INCREMENTAL:NO
+CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL:STRING=
 
 //Flags used by the linker during release builds.
-CMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
+CMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=
 
 //Flags used by the linker during Release with Debug Info builds.
-CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
+CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //If set, runtime paths are not added when installing shared libraries,
 // but are added when building.
@@ -125,7 +129,7 @@ CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 CMAKE_SKIP_RPATH:BOOL=NO
 
 //Flags used by the linker during the creation of static libraries.
-CMAKE_STATIC_LINKER_FLAGS:STRING=/machine:X86
+CMAKE_STATIC_LINKER_FLAGS:STRING=
 
 //Flags used by the linker during debug builds.
 CMAKE_STATIC_LINKER_FLAGS_DEBUG:STRING=
@@ -209,7 +213,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=Visual Studio 15 2017
+CMAKE_GENERATOR:INTERNAL=Visual Studio 14 2015
 //Name of generator platform.
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
