@@ -1,0 +1,5 @@
+C:/Users/Phillip.Goellner/CLionProjects/boolean_algebra_new/cmake-build-debug/CMakeFiles/boolean_algebra_new.dir
+C:/Users/Phillip.Goellner/CLionProjects/boolean_algebra_new/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Phillip.Goellner/CLionProjects/boolean_algebra_new/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Phillip.Goellner/CLionProjects/boolean_algebra_new/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+C:/Users/Phillip.Goellner/CLionProjects/boolean_algebra_new/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
