@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Phillip.Goellner/CLionProjects/boolean_algebra_new
+# Install script for directory: C:/Users/Phillip.Goellner/Documents/Sync/Backup/Cpp/boolean_algebra
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Phillip.Goellner/CLionProjects/boolean_algebra_new/src/cmake_install.cmake")
+  include("C:/Users/Phillip.Goellner/Documents/Sync/Backup/Cpp/boolean_algebra/src/cmake_install.cmake")
 
 endif()
 
@@ -41,5 +41,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Phillip.Goellner/CLionProjects/boolean_algebra_new/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Phillip.Goellner/Documents/Sync/Backup/Cpp/boolean_algebra/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

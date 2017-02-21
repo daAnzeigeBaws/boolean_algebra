@@ -62,7 +62,7 @@ void Parse_bool::evaluate(Term_Object* term)
     for (int i = 0; i < pow(2, number_of_vars); ++i)
     {
         //Erzeugen einer dualen Zahl mit 4 Bit zum einfachen Hochzählen dür die verschiedenen Variablenbelegungen
-        std::string s = std::bitset< 4 >(i).to_string();
+        std::string s = std::bitset<4>(i).to_string();
 
         //Erzeugen einer Map als Abbildung der aktuellen Variablenbelegungen
         std::map<std::string, char>* the_map = new std::map<std::string, char>();

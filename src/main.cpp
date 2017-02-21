@@ -5,7 +5,7 @@
 
 
 int main() {
-    std::string input;
+    std::string input = "";
 
     printf("**********************************************************************************************\n"); //Text & Ausgabe des Menüs
     printf("Herzlich willkommen beim Tool zur Pruefung von Boolscher Algebra!\n\n");
@@ -18,8 +18,11 @@ int main() {
     printf("**********************************************************************************************\n");
     printf("Bitte geben Sie einen Ausdruck ein: ");
     std::cin >> input;
+
     //Eingabe des Audruckes und Schreiben in Variable
-    if (input != "exit") {
+    while (input != "exit") {
+
+
         //Aufruf der Parse-Klasse, um den gegebenen Ausdruck zu parsen
         Parse_bool *parser;
         parser = new Parse_bool();
@@ -34,6 +37,10 @@ int main() {
         catch (std::out_of_range){
             std::cout << "Der eingegebene Ausdruck ist syntaktisch inkorrekt!" << std::endl;
         }
+
+        printf("**********************************************************************************************\n");
+        printf("Bitte geben Sie einen Ausdruck ein: ");
+        std::cin >> input;
     }
     return 0;
 }

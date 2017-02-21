@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Phillip.Goellner/CLionProjects/boolean_algebra_new/src
+# Install script for directory: C:/Users/Phillip.Goellner/Documents/Sync/Backup/Cpp/boolean_algebra/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

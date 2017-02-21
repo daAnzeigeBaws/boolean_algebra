@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Phillip.Goellner\CLionProjects\boolean_algebra_new\CMakeFiles\8b303bb610dcf72c796e6f2053c52df5\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\Phillip.Goellner\Documents\Sync\Backup\Cpp\boolean_algebra\CMakeFiles\d6949b5e944fc48e734e04f2be9e0af4\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{B4DB3A98-7B7A-3A09-A336-50AF59B07536}</UniqueIdentifier>
+      <UniqueIdentifier>{C3EF525B-D6F6-3AE1-8C3F-BA64A2AA06FD}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
